@@ -1,21 +1,25 @@
 import React, { useState } from 'react';
 
-import { validateEmail } from '../utils/helpers';
+import { validateEmail, capitalizeFirstLetter } from '../utils/helpers';
 
 function Contact(props) {
     const setPage = props;
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const [errorMessage, setErrorMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState(true);
     const { name, email, message } = formState; 
 
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!errorMessage) {
             console.log('Form Submitted', formState);
+            alert('Form submitted.  Thank you for your interest!')
+            window.location.reload();
+        } 
+        
+        if (errorMessage) {
+        alert('Please fill out all fields before submitting.');
         }
-
-        alert('Form submitted.  Thank you for your interest!')
-        window.location.reload();
+        
     };
 
     const handleChange = (e) => {
@@ -28,7 +32,7 @@ function Contact(props) {
                 }
             } else {
                 if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required.`);
+                    setErrorMessage(capitalizeFirstLetter(`${e.target.name} is required.`));
                 } else {
                     setErrorMessage('');
                 }
