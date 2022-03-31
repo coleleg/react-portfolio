@@ -96,7 +96,7 @@ main {
   color: #0F1014;
   background-size: cover;
   padding: 10rem 0 0 ;
-  max-width: 35ch;
+  max-width: 300px;
   border-radius: 0.75rem;
   overflow: hidden;
   border: solid 1px black;
@@ -106,7 +106,7 @@ main {
 }
 
 .card-content {
-  padding: 1rem;
+  padding: 1rem 1rem 1.5rem 1rem;
   background: #60739d;
 }
 
@@ -135,7 +135,12 @@ main {
   background-color: #2E2C42;
   padding: .5em 1.25em;
   border-radius: .25em;
+  margin-right: 5px;
 
+}
+
+.button:last-of-type {
+  margin-right: 0;
 }
 
 .button:hover, .button:focus {
@@ -151,13 +156,13 @@ main {
   background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\gym-crm.png);
 }
 #card-3 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\team-page.png);
 }
 #card-4 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\password-generator.png);
 }
 #card-5 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\note-taker.png);
 }
 #card-6 {
   background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
