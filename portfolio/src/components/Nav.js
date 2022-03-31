@@ -7,27 +7,30 @@ function Nav(props) {
     } = props;
 
     return (
-        <header className = 'flex-row px-1'>
-            <h2 onClick={() => setPage('home')}>
-                Profile Pic Here
-            </h2>
+        <header>
+            <div class='inner'>
+                <div class="profile">
+                    <h2 onClick={() => setPage('home')}>
+                        Profile Pic Here
+                        
+                    </h2>
+                </div>
+
             <nav>
-                <ul className='flex-row'>
-                    <li className='mx-2'>
+                    <li>
                         <span onClick={() => setPage('home')}>About Me</span>
                     </li>
-                    <li className='mx-2'>
+                    <li>
                         <span onClick={() => setPage('projects')}>Projects</span>
                     </li>
-                    <li className = 'mx-2'>
-                        <span onClick={() => setPage('resume')}>View Resume</span>
+                    <li>
+                        <span onClick={() => setPage('resume')}>Resume</span>
                     </li>
-                    <li className ='mx-2' >
+                    <li>
                         <span onClick={() => setPage('contact')}>Contact Me</span>
                     </li>
-                </ul>
             </nav>
-
+            </div>
         </header>
     )
 }

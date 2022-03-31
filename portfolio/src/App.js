@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div>
+    <body>
       <Nav
         page={page}
         setPage={setPage}>
@@ -32,7 +32,7 @@ function App() {
       <main>
         {renderApp()}
       </main>
-    </div>
+    </body>
   );
 }
 
