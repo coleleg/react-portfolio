@@ -196,6 +196,40 @@ main {
   text-shadow: 2px 2px #2E2C42;
 }
 
+/* Contact */
+#contact-me {
+  font-size: 50px;
+  text-align: center;
+  color: #FAFEF9 ;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-shadow: 2px 2px #2E2C42;
+}
+
+.contact-form {
+  background-color: #60739d;
+  max-width: calc(50vw);
+  max-height: calc(50vh);
+  margin: 2rem auto;
+  border: 2px solid #0F1014;
+  padding: 2rem;
+}
+
+.contact-form label {
+  color: #0F0F14;
+  display: block;
+  margin-top: 5px;
+  margin-left: 1px;
+  margin-bottom: 2px;
+}
+
+.contact-form input, textarea {
+  border: 1px solid #0F0F14;
+  max-height: calc(25vh);
+  max-width: calc(50vw);
+}
+
+
 /* Footer */
 footer {
   position: absolute;
