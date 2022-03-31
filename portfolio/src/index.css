@@ -75,8 +75,6 @@ main {
   color: #FAFEF9
 }
 
-
-
 /* Projects Styling */
 .projects-header h1 {
   font-size: 50px;
@@ -169,6 +167,32 @@ main {
   background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
 }
 
+/* About Styling */
+.about h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #FAFEF9 ;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-shadow: 2px 2px #2E2C42;
+}
+.about-content {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: #2E2C42;
+  border-radius: 1rem;
+  box-shadow: 1px 1px #2E2C42;
+}
+
+.about-content p {
+  font-size: 30px;
+  text-align: center;
+  color: #FAFEF9 ;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-shadow: 2px 2px #2E2C42;
+}
 
 
 
