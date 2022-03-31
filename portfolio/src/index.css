@@ -71,11 +71,27 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   color: #FAFEF9
 }
 
+
+
 /* Projects Styling */
+.projects-header h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #FAFEF9 ;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-shadow: 2px 2px #2E2C42;
+
+}
+
+.card-container {
+  display: inline-flex;
+}
+
 .card {
   color: #0F1014;
   background-size: cover;
@@ -84,7 +100,8 @@ main {
   border-radius: 0.75rem;
   overflow: hidden;
   border: solid 1px black;
-
+  margin-left: 10px;
+  margin-right: 10px;
   transition: transform 500ms ease;
 }
 
@@ -130,6 +147,22 @@ main {
 #card-1 {
   background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
 }
+#card-2 {
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\gym-crm.png);
+}
+#card-3 {
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+}
+#card-4 {
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+}
+#card-5 {
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+}
+#card-6 {
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+}
+
 
 
 
