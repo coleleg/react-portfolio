@@ -4,6 +4,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import About from './components/About';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [page, setPage] = useState('home');
@@ -32,6 +33,9 @@ function App() {
       <main>
         {renderApp()}
       </main>
+      <Footer page={page}
+        setPage={setPage}>
+      </Footer>
     </body>
   );
 }
