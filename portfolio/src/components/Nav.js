@@ -20,7 +20,7 @@ function Nav(props) {
 
             <nav>
                     <li>
-                        <span onClick={() => setPage('home')}>About Me</span>
+                        <span onClick={() => setPage('home')}>About</span>
                     </li>
                     <li>
                         <span onClick={() => setPage('projects')}>Projects</span>
@@ -29,7 +29,7 @@ function Nav(props) {
                         <span onClick={() => setPage('resume')}>Resume</span>
                     </li>
                     <li>
-                        <span onClick={() => setPage('contact')}>Contact Me</span>
+                        <span onClick={() => setPage('contact')}>Contact</span>
                     </li>
             </nav>
             </div>

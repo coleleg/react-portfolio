@@ -62,7 +62,7 @@ header nav span:hover {
 
 body {
   
-  height: 110%;
+  height: 100vh;
   width: 100%;
   margin: 0 0 0 0;
   background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\background\portfolio-bg.jpg);
@@ -199,6 +199,7 @@ main {
 }
 
 .hs-container {
+  display: flex;
   margin: auto;
   width: 15%;
   padding: 10px;
@@ -261,6 +262,7 @@ main {
   margin: auto;
   width: 6%;
   padding: 10px;
+
 }
 
 .dl-button {
@@ -274,6 +276,7 @@ main {
   padding: .5em 1.25em;
   border-radius: .5em;
   margin-right: 5px;
+  font-weight: bold;
 }
 
 .dl-button:hover {
@@ -374,36 +377,128 @@ footer nav span {
   }
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1600px) {
+  header nav {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .projects-header h1 {
+    font-size: 30px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 0 0 0;
+  }
+
+  .card {
+    margin-top: 5px;
+  }
+  .dl-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .dl-button {
+    margin: 0;
+    position: relative;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about-content {
+    width: 40%;
+
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+  }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+  header .inner {
+    display: flex;
+  }
+  
+.profile {
+  visibility: hidden;
+  font-size: 1px;
+  margin-right: 5px;
+}
+
+  header nav li {
+    font-size: 15px;
+  }
+
+  .dl-button {
+    margin: 0;
+    position: relative;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+  }
+
+  .hs-container {
+    margin-left: 10vw;
+  }
+  .about-content {
+    display: block;
+  }
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-  head nav {
-    float: left;
+@media only screen and (max-width: 600px) {
+  header nav {
+    margin-right: 0;
   }
 
+  header nav li {
+    font-size: 20px;
+  }
 
-  .card-container {
+  .hs-container {
+    margin-left: 25vw;
+  }
+
+  .about-content {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  header nav li {
+    font-size: 12px;
+  }
+  
+  .hs-container {
+    margin-left: 18vw;
+  }
+
+  .contact-form {
     display: grid;
-    justify-content: center;
+    max-width: 50vw;
   }
 
-  .card {
-    margin-top: 10px;
+  .contact-form input, textarea {
+    max-width: 50vw;
   }
-
 
 }
 
