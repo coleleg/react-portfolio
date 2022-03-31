@@ -70,13 +70,13 @@ function Projects(props) {
                 <div class='card' id='card-6'>
                     <div class='card-content'>
                         <h3 class='card-title'>
-                            GymCRM
+                            React Portfolio
                         </h3>
                         <p class='card-body'>
-                            This app was created with the purpose of being a cheap and simple alternative to CRMs for small, club-style gym owners.
+                            You're looking at it!  I made this to showcase some of my work.  All styling is done with css and pages are rendered with React.
                         </p>
-                        <a href='https://protected-waters-34726.herokuapp.com/' class='button'>Check it out!</a>
-                        <a href='https://github.com/coleleg/gym-crm' class='button'>GitHub</a>
+                        <a href='/' class='button'>useState('home')</a>
+                        <a href='https://github.com/coleleg/react-portfolio' class='button'>GitHub</a>
                     </div>
                 </div>
             </container>

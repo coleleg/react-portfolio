@@ -2,7 +2,7 @@
 
 header {
   background-color: #60739d;
-  color: #2E2C42;
+  color: #0F0F14;
   width: 100vw;
   height: 100px;
   border-bottom: solid 1px #0F0F14
@@ -55,7 +55,7 @@ header nav span {
 }
 
 header nav span:hover {
-  color: #98A1CB;
+  color: #FAFEF9;
 }
 
 body {
@@ -166,7 +166,7 @@ main {
   background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\note-taker.png);
 }
 #card-6 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\react-portfolio.PNG);
 }
 
 /* About Styling */
