@@ -13,7 +13,7 @@ function Projects(props) {
                             Weather Dashboard
                         </h3>
                         <p class='card-body'>
-                        This Weather App allows you to view the Current Weather and 5-Day-Forecast of any city using the OpenWeather API. 
+                        Weather Dashboard allows you to view the Current Weather and 5-Day-Forecast of any city using the OpenWeather API. 
                         </p>
                         <a href='https://coleleg.github.io/weather-dashboard/' class='button'>Stay Dry!</a>
                         <a href='https://github.com/coleleg/weather-dashboard' class='button'>GitHub</a>
@@ -25,7 +25,7 @@ function Projects(props) {
                             GymCRM
                         </h3>
                         <p class='card-body'>
-                            This app was created with the purpose of being a cheap and simple alternative to CRMs for small, club-style gym owners.
+                            GymCRM was created with the purpose of being a cheap and simple alternative to CRMs for small, club-style gym owners.
                         </p>
                         <a href='https://protected-waters-34726.herokuapp.com/' class='button'>Make Gains!</a>
                         <a href='https://github.com/coleleg/gym-crm' class='button'>GitHub</a>
@@ -49,7 +49,7 @@ function Projects(props) {
                             Password Generator
                         </h3>
                         <p class='card-body'>
-                            This is one of my first applications.  Showcases understanding of JavaScript fundamentals.  Simple, yet effective.
+                            This is one of my first applications.  It showcases understanding of JavaScript fundamentals.  Simple, yet effective.
                         </p>
                         <a href='https://coleleg.github.io/password-generator/' class='button'>Stay Secure</a>
                         <a href='https://github.com/coleleg/password-generator/' class='button'>GitHub</a>
