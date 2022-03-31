@@ -222,7 +222,7 @@ main {
 }
 
 .contact-form {
-  display: block;
+  display: grid;
   background-color: #60739d;
   max-width: calc(25vw);
   max-height: calc(50vh);
