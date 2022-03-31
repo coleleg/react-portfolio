@@ -21,6 +21,8 @@ header .profile {
   height: 100%;
   float: left;
   cursor: pointer;
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 header .profile:hover {
@@ -135,7 +137,7 @@ main {
   color: #FAFEF9;
   background-color: #2E2C42;
   padding: .5em 1.25em;
-  border-radius: .25em;
+  border-radius: .5em;
   margin-right: 5px;
 
 }
@@ -196,6 +198,19 @@ main {
   text-shadow: 2px 2px #2E2C42;
 }
 
+.hs-container {
+  margin: auto;
+  width: 15%;
+  padding: 10px;
+}
+
+.hs {
+  max-width: 150px;
+  max-height: 150px;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
 /* Contact */
 #contact-me {
   font-size: 50px;
@@ -227,6 +242,39 @@ main {
   border: 1px solid #0F0F14;
   max-height: calc(25vh);
   max-width: calc(50vw);
+}
+
+/* Resume */
+.resume-h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #FAFEF9 ;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-shadow: 2px 2px #2E2C42;
+}
+
+.dl-container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.dl-button {
+  margin: 0 5px 0 5px ;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #0F0F14;
+  background-color: #60739d;
+  padding: .5em 1.25em;
+  border-radius: .5em;
+  margin-right: 5px;
+}
+
+.dl-button:hover {
+  background-color: #98A1CB;
 }
 
 

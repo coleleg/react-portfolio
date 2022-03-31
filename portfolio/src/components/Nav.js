@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { saveAs } from 'file-saver';
+
 
 function Nav(props) {
     const {
@@ -11,7 +13,7 @@ function Nav(props) {
             <div class='inner'>
                 <div class="profile">
                     <h2 onClick={() => setPage('home')}>
-                        Profile Pic Here
+                        Coleman Leggett - Portfolio
                         
                     </h2>
                 </div>
