@@ -61,7 +61,7 @@ body {
   height: 100vh;
   width: 100%;
   margin: 0 0 0 0;
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\background\portfolio-bg.jpg);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\background\portfolio-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -146,22 +146,22 @@ main {
 }
 
 #card-1 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\projects\weather-dashboard.png);
 }
 #card-2 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\gym-crm.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\projects\gym-crm.png);
 }
 #card-3 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\team-page.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\projects\team-page.png);
 }
 #card-4 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\password-generator.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\projects\password-generator.png);
 }
 #card-5 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\note-taker.png);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\projects\note-taker.png);
 }
 #card-6 {
-  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\react-portfolio.PNG);
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\src\assets\projects\react-portfolio.PNG);
 }
 
 /* About Styling */

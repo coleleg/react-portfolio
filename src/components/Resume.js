@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { saveAs } from 'file-saver';
 
 function Resume () {

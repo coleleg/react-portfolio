@@ -1,13 +1,8 @@
-import React, { useEffect } from 'react';
+import React  from 'react';
 import ghIcon from '../assets/icons/GitHub-Mark-32px.png';
 import liIcon from '../assets/icons/LinkedIn-Logo.png';
 
 function Footer(props) {
-    const {
-        page,
-        setPage
-    } = props;
-
     return (
         <footer>
             <div class='inner'>

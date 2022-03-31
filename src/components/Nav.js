@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 
 
 function Nav(props) {
     const {
-        page,
         setPage
     } = props;
 
