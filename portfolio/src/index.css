@@ -1,8 +1,8 @@
 
 
 header {
-  background-color: #606087;
-  color: #EDDDD4;
+  background-color: #60739d;
+  color: #FAFEF9;
   width: 100vw;
   height: 100px;
   border-bottom: solid 1px #0F0F14
@@ -53,10 +53,11 @@ header nav span {
 }
 
 header nav span:hover {
-  color: #020204
+  color: #0F1014
 }
 
 body {
+  display: grid;
   height: 100%;
   width: 100%;
   margin: 0 0 0 0;
@@ -65,15 +66,122 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  font-family: sans-serif;
 }
 
 main {
   margin: 0 auto;
   max-width: 90%;
-  color: #EDDDD4
+  color: #FAFEF9
+}
+
+/* Projects Styling */
+.card {
+  color: #0F1014;
+  background-size: cover;
+  padding: 10rem 0 0 ;
+  max-width: 35ch;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: solid 1px black;
+
+  transition: transform 500ms ease;
+}
+
+.card-content {
+  padding: 1rem;
+  background: #60739d;
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: aboslute;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #2E2C42;
+
+  transition: transform 500ms ease;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #FAFEF9;
+  background-color: #2E2C42;
+  padding: .5em 1.25em;
+  border-radius: .25em;
+
+}
+
+.button:hover, .button:focus {
+  background-color: #98A1CB;
+  color: #2E2C42;
+
+}
+
+#card-1 {
+  background-image: url(C:\Users\colel\OneDrive\Desktop\react-portfolio\portfolio\src\assets\projects\weather-dashboard.png);
 }
 
 
+
+/* makes it so there is no transition on touch screen */
+@media (hover) {
+  .card-content {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+    transition-delay: 500ms;
+  }  
+    /* if you tab over the card or focus on it in some other way, it transforms (focus within) */
+.card:hover, .card:focus-within {
+  transform: scale(1.05);
+}
+
+/* if you tab over the card or focus on it in some other way, it transforms (focus within) */
+.card:hover .card-content,
+.card:focus-within .card-content {
+  transform: translateY(0);
+  background: #60739d;
+}
+
+/* if you tab over the card or focus on it in some other way, it transforms IMMEDIATELY (focus within 0ms) */
+.card:focus-within .card-content {
+  transition-duration: 0ms;
+}
+
+.card-content > *:not(.card-title) {
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+.card:hover .card-content > *:not(.card-title),
+.card:focus-within .card-content > *:not(.card-title) {
+  opacity: 1;
+  transition-delay: 1000ms;
+}
+}
+
+@media (prefers-reduced-motion: reduce)
+  {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms;
+      animation-iteration-count: 1;
+      transition-duration: 0.01ms;
+      scroll-behavior: auto;
+      transition-delay: 0ms;
+
+    }
+  }
 
 
 
