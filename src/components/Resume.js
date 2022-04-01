@@ -14,6 +14,7 @@ function Resume () {
             <div class='dl-container'>
                 <button class='dl-button' onClick={saveFile}>Download</button>
             </div>
+            <div class='footer-aligner'></div>
         </section>
     )
 }

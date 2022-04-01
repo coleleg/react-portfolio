@@ -406,6 +406,10 @@ footer nav span {
 
   }
 
+  section .footer-aligner {
+    height: 100vh;
+  }
+
   footer {
     position: relative;
     bottom: 0;
