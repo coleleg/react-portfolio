@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.914adfbe.css",
+    "main.js": "/react-portfolio/static/js/main.76648f97.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio-bg.jpg": "/react-portfolio/static/media/portfolio-bg.e4a7cf0a397eb206c38a.jpg",
+    "static/media/gym-crm.png": "/react-portfolio/static/media/gym-crm.950adb39c70798cc2db2.png",
+    "static/media/react-portfolio.PNG": "/react-portfolio/static/media/react-portfolio.ff0311b86d4d9a49351b.PNG",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.adc3a6a98cd2f5877b44.png",
+    "static/media/team-page.png": "/react-portfolio/static/media/team-page.8675796638d6a6130e96.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.ed4037313cb34567e35f.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.914adfbe.css.map": "/react-portfolio/static/css/main.914adfbe.css.map",
+    "main.76648f97.js.map": "/react-portfolio/static/js/main.76648f97.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.914adfbe.css",
+    "static/js/main.76648f97.js"
+  ]
+}
